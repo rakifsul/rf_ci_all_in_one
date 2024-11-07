@@ -3,7 +3,7 @@
 <!-- Styles Library -->
 <?= $this->section("style-lib") ?>
 
-<link rel="stylesheet" href="<?= base_url('/assets/vendor/quill/quill.snow.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('/assets/library/quill/quill.snow.css'); ?>">
 
 <?= $this->endSection() ?>
 
@@ -74,7 +74,7 @@
 <!-- Scripts Library-->
 <?= $this->section("script-lib") ?>
 
-<script src="<?= base_url('/assets/vendor/quill/quill.min.js'); ?>"></script>
+<script src="<?= base_url('/assets/library/quill/quill.min.js'); ?>"></script>
 
 <?= $this->endSection() ?>
 
